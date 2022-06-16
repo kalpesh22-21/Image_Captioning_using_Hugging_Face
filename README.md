@@ -31,4 +31,5 @@ As we can see from above, The ViT transformer encodes the Information from the I
 
 # References:
 https://github.com/google-research/vision_transformer
+
 https://huggingface.co/docs/transformers/model_doc/encoder-decoder
