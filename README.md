@@ -38,7 +38,7 @@ As we can see from above, The ViT transformer encodes the Information from the I
 (Refer [IPYNB] (https://gist.github.com/kalpesh22-21/cb93603d00c7d36df3b0c8bdc67f0aae))
 
 # Results
-After training the model only 20% of data for 2 iteration (due to compute unavailability) we can see we get a precision of 15% and recall of 15.5% from below.
+After training the model only 20% of data for 2 iteration (due to compute unavailability) we can see we get a precision of 15% and recall of 15.5% on training data from below.
 
 ![Training_Iterations](/assets/Iter.png)
 
