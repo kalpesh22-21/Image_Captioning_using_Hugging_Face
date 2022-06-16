@@ -28,6 +28,17 @@ Thus using the above 2 ideas the Task of Image captioning can be tackled as Enco
 
 As we can see from above, The ViT transformer encodes the Information from the Images & the Decoder using cross attention generates the captions on the data.
 
+# Training & Results
+#### All the training captions and Image file names are stored in [data.json](/data.json). You can download the images from [here]( https://www.kaggle.com/datasets/adityajn105/flickr8k)
+
+### Step 1 - Train Decoder Model on the corpus of captions 
+(You can build your own Tokenizer from scratch as done in the [IPYNB](https://gist.github.com/kalpesh22-21/12d58a86114f23d1492b57dc06cf91e3) above) 
+
+### Step 2 - Train Vision Encoder Decoder model
+(Refer [IPYNB] (https://gist.github.com/kalpesh22-21/cb93603d00c7d36df3b0c8bdc67f0aae))
+
+
+
 
 # References:
 https://github.com/google-research/vision_transformer
